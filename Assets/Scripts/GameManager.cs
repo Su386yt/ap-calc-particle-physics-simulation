@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
 {
     public TMPro.TextMeshProUGUI functionEntry;
     public TMPro.TextMeshProUGUI functionInformation;
+    public TMPro.TextMeshProUGUI timeText;
 
     public RectTransform particle;
 
@@ -54,6 +55,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         var posX = calculatePosition();
+        timeText.text = "t = " + getT(); 
         particle.anchoredPosition = new Vector2(posX, UIPosY);
     }
 
