@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>AngouriMath</id>
+    <version>1.3.0</version>
+    <authors>WhiteBlackGoose</authors>
+    <license type="file">LICENSE.md</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>icon.png</icon>
+    <projectUrl>https://am.angouri.org/</projectUrl>
+    <description>Enables to work with formulas built in the code or from a string. Computing, derivating, latex rendering, compilation, solving equations and systems of equations analytycally, simplification, and much more. Read more on https://am.angouri.org.</description>
+    <releaseNotes>See it on website https://am.angouri.org/whatsnew</releaseNotes>
+    <copyright>Angouri 2019-2021</copyright>
+    <tags>Math, csharp, derivation, latex, calculator, parse, simplification, compute, symbol, compilation, algebra, equation system, equation</tags>
+    <repository type="public" url="https://github.com/asc-community/AngouriMath" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.2">
+        <dependency id="Antlr4.Runtime.Standard" version="4.9.2" exclude="Build,Analyzers" />
+        <dependency id="GenericTensor" version="1.0.4" exclude="Build,Analyzers" />
+        <dependency id="HonkSharp" version="1.0.1" exclude="Build,Analyzers" />
+        <dependency id="PeterO.Numbers" version="1.8.0" exclude="Build,Analyzers" />
+        <dependency id="System.Memory" version="4.5.4" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.Numerics" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.ValueTuple" version="4.5.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Antlr4.Runtime.Standard" version="4.9.2" exclude="Build,Analyzers" />
+        <dependency id="GenericTensor" version="1.0.4" exclude="Build,Analyzers" />
+        <dependency id="HonkSharp" version="1.0.1" exclude="Build,Analyzers" />
+        <dependency id="PeterO.Numbers" version="1.8.0" exclude="Build,Analyzers" />
+        <dependency id="System.Memory" version="4.5.4" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="Antlr4.Runtime.Standard" version="4.9.2" exclude="Build,Analyzers" />
+        <dependency id="GenericTensor" version="1.0.4" exclude="Build,Analyzers" />
+        <dependency id="HonkSharp" version="1.0.1" exclude="Build,Analyzers" />
+        <dependency id="PeterO.Numbers" version="1.8.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GenericTensor</id>
+    <version>1.0.4</version>
+    <authors>WhiteBlackGoose</authors>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>ico1.png</icon>
+    <projectUrl>https://github.com/WhiteBlackGoose/GenericTensor</projectUrl>
+    <description>The only .NET tensor &amp; matrix library for generic types. It is also faster than other generic-typed matrix libraries.</description>
+    <releaseNotes>Multitargeting added</releaseNotes>
+    <copyright>WhiteBlackGoose</copyright>
+    <tags>tensor, generic, matrix, vector, performance</tags>
+    <repository type="public" url="https://github.com/asc-community/GenericTensor" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.2" />
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+</package>
