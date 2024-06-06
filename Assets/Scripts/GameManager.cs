@@ -1,9 +1,7 @@
 ﻿using AngouriMath;
 using AngouriMath.Extensions;
-using System;
 using System.Text.RegularExpressions;
 using UnityEngine;
-using static AngouriMath.MathS;
 using System.Collections.Generic;
 using AngouriMath.Core;
 
@@ -80,9 +78,9 @@ public class GameManager : MonoBehaviour
     public Entity velocFunc = "1";
     public Entity accelFunc = "0";
 
-    public FastExpression compiledPosFunc = "t".Compile();
-    public FastExpression compiledVelocFunc = "1".Compile();
-    public FastExpression compiledAccelFunc = "0".Compile();
+    public FastExpression compiledPosFunc = "t".Compile("t");
+    public FastExpression compiledVelocFunc = "1".Compile("t");
+    public FastExpression compiledAccelFunc = "0".Compile("t");
 
     void UpdateFromPosFunc()
     {

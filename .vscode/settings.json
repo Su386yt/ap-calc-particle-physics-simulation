@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "AP Calc AB Project.sln"
+    "dotnet.defaultSolution": "ap-calc-particle-physics-simulation.sln"
 }
